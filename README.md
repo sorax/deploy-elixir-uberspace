@@ -1,1 +1,3 @@
-# deploy-elixir-uberspace
+# Deploy Elixir on Uberspace
+
+- `chmod +x setup.sh`
