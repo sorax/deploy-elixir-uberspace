@@ -1,3 +1,5 @@
 # Deploy Elixir on Uberspace
 
-- `chmod +x setup.sh`
+Make scripts executable
+
+- `chmod +x install.sh`
