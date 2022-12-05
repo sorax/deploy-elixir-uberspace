@@ -16,8 +16,11 @@ supervisorctl stop elixir-$NEW_INSTANCE
 cd $GIT_REPO
 
 # Cleanup repo
-git reset --hard
-git clean -df
+# git reset --hard
+# git clean -df
+
+# Cleanup "old" assets
+mix phx.digest.clean --all
 
 # Checkout latest version
 git pull --rebase
