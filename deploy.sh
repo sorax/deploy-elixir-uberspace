@@ -11,7 +11,7 @@ else
 fi
 
 # Stop "new" version (just in case)
-supervisorctl start elixir-$NEW_INSTANCE
+supervisorctl stop elixir-$NEW_INSTANCE
 
 cd $GIT_REPO
 
